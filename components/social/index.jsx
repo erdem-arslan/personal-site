@@ -1,5 +1,4 @@
 import React from 'react'
-import { AiOutlineMail, AiFillEdit } from 'react-icons/ai'
 import Link from 'next/link'
 
 function index({label, url = "/", link, icon}) {
@@ -13,8 +12,8 @@ function index({label, url = "/", link, icon}) {
               <Icons className='text-primary text-xl ' />
             </div>
             <div className='ml-4 truncate'>
-              <p className='text-white-2 text-sm font-semibold '>{label}</p>
-              <Link className='text-white-1 text-md' href={url}>{link}</Link>
+              <p className='text-white-2 text-sm font-semibold font-links-1'>{label}</p>
+              <Link className='text-white-1 text-md font-links-1' href={url}>{link}</Link>
             </div>
           </div>
         </div>
