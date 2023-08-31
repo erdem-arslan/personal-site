@@ -1,4 +1,5 @@
 import React from 'react'
+import {Card} from '../index.js'
 import { SiAltiumdesigner } from 'react-icons/si'
 import { PiCodeBold, PiDesktopTower } from 'react-icons/pi'
 import { MdDeveloperMode, MdDesignServices } from 'react-icons/md'
@@ -13,7 +14,7 @@ function About() {
               <h1 className='font-links-1 font-semibold text-4xl mb-3 text-white-1'>About Me</h1>
               <div className='h-1 bg-primary w-16 rounded'></div>
             </div>
-            <div className='text-white-2 text-md'>
+            <div className='text-white-2 text-md mr-5'>
               <p className='mb-6'>
                 I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
               </p>
@@ -25,72 +26,12 @@ function About() {
             <div className='mt-14'>
               <h1 className='font-links-1 font-black text-3xl text-white-1 mb-10'>What I'm Doing</h1>
               <div className='flex  items-start flex-wrap'>
-                <div className='w-[45%] mr-5 mb-5  bg-card-bg flex items-start px-6 py-8 rounded-3xl shadow-default'>
-                  <div className='mr-5'>
-                    <SiAltiumdesigner className='text-5xl text-primary' />
-                  </div>
-                  <div>
-                    <h2 className='text-white-1 font-links-1 font-semibold text-xl '>Web Design</h2>
-                    <p className='text-white-3 text-sm'>
-                      The most modern and high-quality design made at a professional level.
-                    </p>
-                  </div>
-                </div>
-                <div className='w-[45%] mr-5  mb-5 bg-card-bg flex items-start px-6 py-8 rounded-3xl shadow-default'>
-                  <div className='mr-5'>
-                    <PiCodeBold className='text-5xl text-primary' />
-                  </div>
-                  <div>
-                    <h2 className='text-white-1 font-links-1 font-semibold text-xl '>Web Development</h2>
-                    <p className='text-white-3 text-sm'>
-                      High-quality development of sites at the professional level.
-                    </p>
-                  </div>
-                </div>
-                <div className='w-[45%] mr-5  mb-5 bg-card-bg flex items-start px-6 py-8 rounded-3xl shadow-default'>
-                  <div className='mr-5'>
-                    <MdDeveloperMode className='text-5xl text-primary' />
-                  </div>
-                  <div>
-                    <h2 className='text-white-1 font-links-1 font-semibold text-xl '>Mobile Apps</h2>
-                    <p className='text-white-3 text-sm'>
-                      Professional development of applications for iOS and Android.
-                    </p>
-                  </div>
-                </div>
-                <div className='w-[45%] mr-5  mb-5 bg-card-bg flex items-start px-6 py-8 rounded-3xl shadow-default'>
-                  <div className='mr-5'>
-                    <PiDesktopTower className='text-5xl text-primary' />
-                  </div>
-                  <div>
-                    <h2 className='text-white-1 font-links-1 font-semibold text-xl '>Desktop Apps</h2>
-                    <p className='text-white-3 text-sm'>
-                      Professional development of applications for iOS and Android.
-                    </p>
-                  </div>
-                </div>
-                <div className='w-[45%] mr-5  mb-10 bg-card-bg flex items-start px-6 py-8 rounded-3xl shadow-default'>
-                  <div className='mr-5'>
-                    <GiVideoCamera className='text-5xl text-primary' />
-                  </div>
-                  <div>
-                    <h2 className='text-white-1 font-links-1 font-semibold text-xl '>Video Montage</h2>
-                    <p className='text-white-3 text-sm'>
-                      Professional development of applications for iOS and Android.
-                    </p>
-                  </div>
-                </div>
-                <div className='w-[45%] mr-5  mb-10 bg-card-bg flex items-start px-6 py-8 rounded-3xl shadow-default'>
-                  <div className='mr-5'>
-                    <MdDesignServices className='text-5xl text-primary' />
-                  </div>
-                  <div>
-                    <h2 className='text-white-1 font-links-1 font-semibold text-xl '>Creative Design</h2>
-                    <p className='text-white-3 text-sm'>
-                      Professional development of applications for iOS and Android.
-                    </p>
-                  </div>
-                </div>
+                <Card icon={SiAltiumdesigner} title="Web Design" desc="The most modern and high-quality design made at a professional level."/>
+                <Card icon={PiCodeBold} title="Web Development" desc="High-quality development of sites at the professional level."/>
+                <Card icon={MdDeveloperMode} title="Mobile Apps" desc="Professional development of applications for iOS and Android."/>
+                <Card icon={PiDesktopTower} title="Desktop Apps" desc="The most modern and high-quality design made at a professional level."/>
+                <Card icon={GiVideoCamera} title="Video Montage" desc="The most modern and high-quality design made at a professional level."/>
+                <Card icon={MdDesignServices} title="Creative Design" desc="The most modern and high-quality design made at a professional level."/>
               </div>
             </div>
           </div>

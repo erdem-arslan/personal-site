@@ -20,11 +20,18 @@ module.exports = {
       },
       boxShadow: {
         'default': '-1px -1px 0px 0px #3c3c3c',
+        'shadow-2': '-2px 1px 5px #febc69',
       },
       fontFamily: {
         'header': 'Inconsolata, monospace',
         'links-1': 'Titillium Web, sans-serif',
       },
+      transitionDelay: {
+        'transition-1': '0.5s ease-in-out;'
+      },
+      backdropBlur: {
+        'blur-1': '3px',
+      }
     },
   },
   plugins: [],
