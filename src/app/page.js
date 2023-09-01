@@ -1,4 +1,4 @@
-import { Sidebar, About, Header } from '../../components'
+import { Sidebar, About, Resume, Header } from '../../components'
 
 
 export default function Home()
@@ -9,7 +9,9 @@ export default function Home()
         <Sidebar />
         <div className="lg:w-[75%] w-full bg-dark-gray lg:h-full border rounded-3xl border-light-gray relative lg:mt-0 mt-6 mx-5 lg:mb-0 mb-20">
           <Header />
-          <About />
+          {/* <About /> */}
+          <Resume />
+
         </div>
       </div>
     </div>

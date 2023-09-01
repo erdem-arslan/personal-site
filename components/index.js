@@ -1,5 +1,6 @@
 export { default as Sidebar } from './sidebar'
 export { default as Social } from './social'
 export { default as About } from './about'
+export { default as Resume } from './resume'
 export { default as Header } from './header'
 export { default as Card } from './service-card'
