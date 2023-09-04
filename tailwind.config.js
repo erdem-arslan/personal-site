@@ -30,8 +30,11 @@ module.exports = {
         'transition-1': '0.5s ease-in-out;'
       },
       backdropBlur: {
-        'blur-1': '3px',
-      }
+        'blur-1': '5px',
+      },
+      filter: {
+        'filter-1': 'grayscale(1) invert(1) contrast(1.2)',
+      },
     },
   },
   plugins: [],
