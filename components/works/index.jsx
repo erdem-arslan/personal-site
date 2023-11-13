@@ -1,5 +1,6 @@
+import Image from 'next/image';
 import React from 'react';
-import ModalImage from 'react-modal-image';
+// import ModalImage from 'react-modal-image';
 
 
 
@@ -7,8 +8,8 @@ function index({image, title, subtitle}) {
     return (
     <div className='w-full md:w-[30%] mb-14'>
           <div className='relative'>
-                <ModalImage className='w-full h-48 object-top object-cover cursor-pointer hover:p-1 hover:opacity-50 opacity-80 transition rounded-3xl '
-                small={image} large={image} hideDownload={true} alt={title}/>
+                <Image className='w-full h-48 object-top object-cover cursor-pointer hover:p-1 hover:opacity-50 opacity-80 transition rounded-3xl '
+                small={image} src={image} width={100} height={30} hideDownload={true} alt={title}/>
           </div>
           <div className='ml-2 mt-1'>
                 <h3 className='font-links-1 font-semibold text-2xl text-white-1'>{title}</h3>

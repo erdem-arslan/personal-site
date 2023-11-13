@@ -16,10 +16,10 @@ function About() {
             </div>
             <div className='text-white-2 text-md mr-5'>
               <p className='mb-6'>
-                I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
+              Hello! I'm Erdem, a Front-end Developer. I'm a passionate individual who loves crafting creative solutions and is dedicated to both design and coding. I focus on merging aesthetics and functionality, keeping user experience at the forefront.
               </p>
               <p>
-                My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
+              With my education and experience, I have built a strong foundation in modern web technologies. I've honed my expertise in React, NextJS, JavaScript and Tailwind CSS and continuously stay updated with new technologies and trends. I contribute to strengthening brands' digital presence by creating user-friendly and impressive web interfaces in every project.
               </p>
             </div>
 
