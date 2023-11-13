@@ -9,7 +9,7 @@ function Portfolio()
 
   return (
     <div className='mt-6 ml-6'>
-      <HeadTitle children='Portfolio' />
+      <HeadTitle>Portfolio</HeadTitle>
       <div className='flex flex-wrap gap-5 mr-5'>
         {Work.map((Work) => (
           <Works key={Work.id} title={Work.title} subtitle={Work.subtitle} image={Work.image} />

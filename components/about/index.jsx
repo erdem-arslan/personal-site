@@ -16,15 +16,15 @@ function About() {
             </div>
             <div className='text-white-2 text-md mr-5'>
               <p className='mb-6'>
-              Hello! I'm Erdem, a Front-end Developer. I'm a passionate individual who loves crafting creative solutions and is dedicated to both design and coding. I focus on merging aesthetics and functionality, keeping user experience at the forefront.
+              Hello! I&apos;m Erdem, a Front-end Developer. I&apos;m a passionate individual who loves crafting creative solutions and is dedicated to both design and coding. I focus on merging aesthetics and functionality, keeping user experience at the forefront.
               </p>
               <p>
-              With my education and experience, I have built a strong foundation in modern web technologies. I've honed my expertise in React, NextJS, JavaScript and Tailwind CSS and continuously stay updated with new technologies and trends. I contribute to strengthening brands' digital presence by creating user-friendly and impressive web interfaces in every project.
+              With my education and experience, I have built a strong foundation in modern web technologies. I&apos;ve honed my expertise in React, NextJS, JavaScript and Tailwind CSS and continuously stay updated with new technologies and trends. I contribute to strengthening brands&apos; digital presence by creating user-friendly and impressive web interfaces in every project.
               </p>
             </div>
 
             <div className='mt-14'>
-              <h1 className='font-links-1 font-black text-3xl text-white-1 mb-10'>What I'm Doing</h1>
+              <h1 className='font-links-1 font-black text-3xl text-white-1 mb-10'>What I&apos;m Doing</h1>
               <div className='flex  items-start flex-wrap'>
                 <Card icon={SiAltiumdesigner} title="Web Design" desc="The most modern and high-quality design made at a professional level."/>
                 <Card icon={PiCodeBold} title="Web Development" desc="High-quality development of sites at the professional level."/>
