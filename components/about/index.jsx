@@ -26,9 +26,8 @@ function About() {
             <div className='mt-14'>
               <h1 className='font-links-1 font-black text-3xl text-white-1 mb-10'>What I&apos;m Doing</h1>
               <div className='flex  items-start flex-wrap'>
-                <Card icon={SiAltiumdesigner} title="Web Design" desc="The most modern and high-quality design made at a professional level."/>
+                <Card icon={SiAltiumdesigner} title="Web Design" desc="High-quality design made at a professional level."/>
                 <Card icon={PiCodeBold} title="Web Development" desc="High-quality development of sites at the professional level."/>
-                <Card icon={MdDesignServices} title="Creative Design" desc="The most modern and high-quality design made at a professional level."/>
               </div>
             </div>
           </div>
