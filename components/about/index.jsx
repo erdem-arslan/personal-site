@@ -28,9 +28,6 @@ function About() {
               <div className='flex  items-start flex-wrap'>
                 <Card icon={SiAltiumdesigner} title="Web Design" desc="The most modern and high-quality design made at a professional level."/>
                 <Card icon={PiCodeBold} title="Web Development" desc="High-quality development of sites at the professional level."/>
-                <Card icon={MdDeveloperMode} title="Mobile Apps" desc="Professional development of applications for iOS and Android."/>
-                <Card icon={PiDesktopTower} title="Desktop Apps" desc="The most modern and high-quality design made at a professional level."/>
-                <Card icon={GiVideoCamera} title="Video Montage" desc="The most modern and high-quality design made at a professional level."/>
                 <Card icon={MdDesignServices} title="Creative Design" desc="The most modern and high-quality design made at a professional level."/>
               </div>
             </div>
